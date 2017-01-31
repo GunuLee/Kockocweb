@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import "layout.css";
+@import "common.css";
+@import "page_cont.css";
+
+/* *******************************************
+	font-face :Nanum Gothic
+******************************************** */
+@font-face {
+	font-family:'Nanum Gothic';
+	font-style:normal;
+	font-weight:400;
+	src:url(../font/NanumGothic.eot);
+	src:url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'),
+		url(../font/NanumGothic.woff2) format('woff2'),
+		url(../font/NanumGothic.woff) format('woff'),
+		url(../font/NanumGothic.ttf) format('truetype');
+}
+@font-face {
+	font-family:'Nanum Gothic';
+	font-style:normal;
+	font-weight:700;
+	src:url(../font/NanumGothicBold.eot);
+	src:url(../font/NanumGothicBold.eot?#iefix) format('embedded-opentype'),
+		url(../font/NanumGothicBold.woff2) format('woff2'),
+		url(../font/NanumGothicBold.woff) format('woff'),
+		url(../font/NanumGothicBold.ttf) format('truetype');
+}
+
+/* *******************************************
+	reset
+******************************************** */
+html,body,
+div,p,h1,h2,h3,h4,h5,h6,
+ul,ol,li,dl,dt,dd,
+table,tr,td,th,
+span,strong,em,a,img,
+select,
+form,fieldset,legend,
+header,footer,article,aside,figcaption,figure,nav,section,
+cite,blockquote{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+article, aside, figcaption, figure, footer, header, nav, section {display:block;}
+body {font-size:0.75em;font-family:'Nanum Gothic',돋움,Dotum,sans-serif;line-height:1.5;color:#666;}
+li {list-style:none;}
+table {border-collapse:collapse;border-spacing:0;}
+caption{overflow:hidden;visibility:hidden;font-size:0;line-height:0;height:0;}
+legend {position:absolute;top:-50px;left:-50px;width:0;height:0;overflow:hidden;visibility:hidden;font-size:0;line-height:0;padding:0;}
+em {font-style:normal;}
+img {vertical-align:top;}
+cite {font-style:normal;}
+blockquote {display:inline;}
+a {text-decoration:none;font-family:'Nanum Gothic',돋움,Dotum,sans-serif;font-size:1em;}
+input,select,textarea {font-family:'Nanum Gothic',돋움,Dotum,sans-serif;font-size:1em;}
+select {background:#fff;border:1px solid #dcdcdc;height:25px;line-height:25px;}
+select:focus {border:1px solid #333;}
+button {overflow:visible;margin:0;padding:0;border:none;background:none;vertical-align:top;cursor:pointer;font-family:'Nanum Gothic',돋움,Dotum,sans-serif;}
+button::-moz-focus-inner { border:0;padding:0;}
+.hide {position:absolute;top:-50px;left:-50px;width:0;height:0;overflow:hidden;visibility:hidden;font-size:0;line-height:0;padding:0;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+* { -webkit-font-smoothing:antialiased;}
+}
+
+@media only screen and (max-width: 800px) {
+    #popup_layer {
+        display: none;
+    }
+}

@@ -1,0 +1,914 @@
+/*font-face*/
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/NanumGothic.eot);
+    src: url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'),
+    url(../font/NanumGothic.woff2) format('woff2'),
+    url(../font/NanumGothic.woff) format('woff'),
+    url(../font/NanumGothic.ttf) format('truetype');
+}
+
+body {
+    font-family: "Nanum Gothic";
+}
+
+/*finish*/
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/NanumGothicBold.eot);
+    src: url(../font/NanumGothicBold.eot?#iefix) format('embedded-opentype'),
+    url(../font/NanumGothicBold.woff2) format('woff2'),
+    url(../font/NanumGothicBold.woff) format('woff'),
+    url(../font/NanumGothicBold.ttf) format('truetype');
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+html,body{height:100%;}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #494c51;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #494c51;
+}
+
+#wraper{
+    min-height: 100%; 
+    margin-bottom: -110px;
+}
+#header_upper {
+    position: relative;
+    height: 50px;
+    margin: 0 25%;
+    
+}
+
+#main_header {
+    height: 160px;
+    position: relative;
+}
+
+#main_header #logo {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+}
+
+#main_header #logo #logo_img {
+    height: 43px;
+    width: 335px;
+}
+
+#main_header #member_nav {
+    display: block;
+    position: relative;
+    padding-top: 10px;
+    float: right;
+    right: 0;
+    top: 0;
+}
+
+#main_header #member_nav ul {
+    overflow: hidden;
+    font-size: 11px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#main_header #member_nav ul li {
+    float: left;
+}
+
+#main_header #member_nav ul li a {
+    color: #858688;
+}
+
+#main_header #member_nav ul li:first-child {
+    padding-right: 20px;
+}
+
+#main_header #main_menu_nav {
+    display: block;
+    position: relative;
+    top: 30px;
+    right: -95px;
+    float: right;
+}
+
+#main_header #main_menu_nav ul {
+    position: inherit;
+    font-size: 20px;
+}
+
+#main_header #main_menu_nav ul li {
+    float: left;
+}
+
+#main_header #main_menu_nav ul li:last-child a {
+    padding-right: 0;
+}
+
+#main_header #main_menu_nav ul li a {
+    display: block;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+#main_header #search {
+    position: absolute;
+    top: 60px;
+    background-color: #494c51;
+    height: 75px;
+    width: 100%;
+}
+
+#main_header #search #search_text_field {
+    float: left;
+    padding-left: 25%;
+    font-size: 17px;
+}
+
+#main_header #search #search_text_field #search_bar #input_text {
+    height: 45px;
+    width: 750px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+#main_header #search #search_text_field #sch_smit {
+    background-color: #f66d5b;
+    width: 85px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+#main_header #search #search_nav {
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/*검색버튼 옆 위아래 간격*/
+#main_header #search #search_nav li {
+    padding-bottom: 3px;
+}
+
+#main_header #search #search_nav li a {
+    padding-left: 5px;
+    color: #ffffff;
+}
+/*------------------------------------------------------------------------------------------*/
+#mypage {
+    position: relative;
+    display: table;
+    left: 25%;
+    width: 190px;
+    height: 100px;
+    background-color: #f66d5b;
+    padding: 0;
+    text-align: center;
+    clear: both;
+    float: left;
+}
+
+#mypage_mypage1 {
+    position: relative;
+    bottom: -20px;
+    color: #D5D5D5;
+    border: bold;
+    font-size: 13px;
+}
+
+#mypage_mypage2 {
+    position: relative;
+    /*bottom: -0px;*/
+    color: white;
+    border: bolder;
+    font-size: 24px;
+}
+
+#list_mypage {
+    position: relative;
+    left: 27%;
+    margin-left: 2px;
+    width: 190px;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+#mypage_list1 {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    margin: 0 0 0 -40px;
+    padding: 7px 0 0 0 ;
+    background-color: #E1E1E1;
+    font-size: 13px;
+}
+
+#mypage_list2 {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    margin: 0 0 0 -40px;
+    padding-top: 7px;
+    border-bottom: 1px solid #E1E1E1;
+    font-size: 13px;
+}
+
+#mypage_list_kockoc{
+    padding-left: 15px;
+    position: relative;
+    font-weight: bolder;
+}
+
+#mypage_main {
+    position: relative;
+    width: 660px;
+    height: 70px;
+    border-bottom: 1px solid #E1E1E1;
+    margin: 10px 0 20px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    left: 37%;
+}
+
+#mypage_main_text{
+    position: absolute;
+    bottom: 0;
+}
+
+/*------------------------------------------mykockoc----------------------------------------*/
+#mykockoc_list{
+    position: relative;
+    display: block;
+    width: 1000px;
+    height: 302px;
+    margin: 0;
+    padding: 0;
+    left: 37%;
+}
+
+#mykockoc_list_child{
+    position: relative;
+    width: 230px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    left: -19%;
+    top: -7px;
+    border: 1px solid #E1E1E1;
+}
+
+#mykockoc_setup{
+    position: relative;
+    display: block;
+    width: 1000px;
+    height: 102px;
+    margin-top: -30px;
+    padding: 0;
+    left: 37%
+}
+
+/*------------------------------------------mycourse----------------------------------------*/
+.component_content {
+    position: relative;
+    margin: 40px 0 0 25%;
+    top: -50px;
+    left: 12%;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#course_recommend {
+    display: block;
+    position: relative;
+    width: 700px;
+    height: 810px;
+    margin-bottom: 150px;
+}
+
+.layout_1by3 {
+    position: relative;
+    padding: 0;
+    display: block;
+    width: 900px;
+    height: 172px;
+}
+
+.layout_1by3_child {
+    width: 310px;
+    height: 172px;
+    margin-right: 70px;
+    margin-top: 40px;
+    float: left;
+    padding-right: 10px;
+}
+
+#pagenumber {
+    position: relative;
+    left: 37%;
+    margin-top: 220px;
+    margin-bottom: 20px;
+    width: 750px;
+    height: 50px;
+    text-align: center;
+}
+
+#pagenumber1 {
+    position: relative;
+    display: inline-block;
+    background-color: #f66d5b;
+    text-align: center;
+    top: -15px;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#pagenumber2 {
+    position: relative;
+    text-align: center;
+    top: -15px;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+/*------------------------------------------myneighbor--------------------------------------*/
+#mypage_following{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 37%;
+    top: 26%;
+}
+
+#mypage_follower{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 57%;
+    top: 26%;
+}
+
+#mypage_following_text{
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 12px;
+    /*margin-left: -40px;*/
+}
+
+#mypage_follower_text{
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 12px;
+    /*margin-left: -40px;*/
+}
+
+#mypage_follow{
+    position: relative;
+    left: 37%;
+    width: 630px;
+    height: 700px;
+    padding: 0;
+    margin-top: 60px;
+}
+
+#mypage_following_list{
+    position: absolute;
+    width: 250px;
+    height: 600px;
+    border: 1px solid #E1E1E1;
+}
+
+#mypage_follower_list{
+    position: absolute;
+    width: 250px;
+    height: 600px;
+    right: 0;
+    border: 1px solid #E1E1E1;
+}
+/*------------------------------------------mynickname--------------------------------------*/
+#mypage_nickname{
+    position: absolute;
+    left: 42%;
+    width: 250px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#mypage_nickname_list{
+    position: relative;
+    left: 42%;
+    width: 480px;
+    height: 250px;
+    margin-top: 60px;
+    padding: 20px 0 0 0;
+    border: 2px solid #E1E1E1;
+}
+
+#mypage_nickname_text{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    left: -20%;
+    font-weight: bolder;
+}
+
+#mypage_nickname_check{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin:0px;
+    left: -20%;
+}
+
+#mypage_nickname_overlap{
+    position: relative;
+    width: 80px;
+    height: 36px;
+    font-size: 15px;
+    color: white;
+    left: -21%;
+    background-color: #A1A1A1;
+}
+
+#mypage_nickname_membership{
+    position: relative;
+    width: 280px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    background-color: #f66d5b;
+    left: -20%;
+}
+
+
+/*------------------------------------------mypassword--------------------------------------*/
+#mypage_password_text{
+    position: relative;
+    margin-bottom: 5px;
+    left: -20%;
+    font-weight: bolder;
+}
+
+#mypage_password_list{
+    position: relative;
+    left: 42%;
+    width: 470px;
+    height: 400px;
+    margin-top: 60px;
+    padding: 20px 0 0 0;
+    border: 2px solid #E1E1E1;
+}
+
+#mypage_password_check{
+    position: relative;
+    width: 225px;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    left: -20%;
+}
+
+#mypage_password_message{
+    position: relative;
+    float: left;
+    left: -20%;
+}
+
+#mypage_password_membership{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    background-color: #f66d5b;
+    left: 20%;
+}
+/*------------------------------------------mysetup-----------------------------------------*/
+#mypage_setup{
+    position: relative;
+    display: table-cell;
+    width: 450px;
+    height: 300px;
+    border: 1px solid #E1E1E1;
+    border-bottom: 0;
+    left: 115%;
+    margin-top: 150%;
+}
+
+#mypage_setup_list{
+    position: relative;
+    width: 100%
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #E1E1E1;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#mypage_setup_alram{
+    position: relative;
+    width: 95%;
+    height: 55px;
+    margin: 0 0 0 -1px;
+    padding: 20px 3px 0 20px;
+    border: 1px solid #E1E1E1;
+}
+
+#mypage_alram{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+#mypage_setpu_text{
+    color: #f66d5b;
+}
+
+#mypage_setup_password{
+    position: relative;
+    width: 96%;
+    height: 35px;
+    padding: 5px 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#mypage_setup_nickname{
+    position: relative;
+    width: 96%;
+    height: 36px;
+    padding: 5px 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#mypage_setup_service{
+    position: relative;
+    width: 96%;
+    height: 36px;
+    padding: 5px 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#mypage_setup_autologin{
+    position: relative;
+    width: 96%;
+    height: 36px;
+    padding: 5px 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#mypage_setup_cache{
+    position: relative;
+    width: 96%;
+    height: 36px;
+    margin-bottom: 0;
+    padding: 5px 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio] + label:before {
+    content: "";
+    display: inline-block;
+    border: 3px solid #B0B0B0;
+    width: 17px;
+    height: 17px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+input[type="radio"] + label:active:before,
+input[type="radio"]:checked + label:active:before {
+}
+
+input[type=radio]:checked + label:before {
+    content: "";
+    background: #979797;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px; 
+  margin-left: 30px;
+  bottom: -7px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition:.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 0px;
+  bottom: -5px;
+  background: white;
+  transition: .4s;
+  box-shadow: 1px 1px 1px grey;
+}
+
+input:checked + .slider {
+  background: #5BDA4E;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 3px #5BDA4E;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+#footer {
+    position: relative;
+    padding-left: 25%;
+    height: 110px;
+    color: #dddddd;
+    background-color: #494c51;
+}
+
+#footer #nav_footer {
+    display: block;
+    margin-top: 5px;
+}
+
+#footer #nav_footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer #nav_footer ul li:first-child {
+    padding: 10px 0;
+}
+
+#footer #nav_footer ul li {
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+#footer #nav_footer ul li a {
+    color: #ffffff;
+}
+
+#footer #address_footer {
+    position: absolute;
+    margin-top: -10px;
+    display: block;
+    font-style: normal;
+    font-size: small;
+    color: #858688;
+}
+
+.appstoreimg {
+    float: right;
+    width: 200px;
+    height: 50px;
+    padding-right: 30%
+
+}
+
+.appstoreimg img {
+    width: 150px;
+    height: auto;
+}
+
+.adroidimg {
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.adroidimg img {
+    width: 150px;
+    height: auto;
+}
+#basebutton{
+    background-color: #FFFFFF;
+    border: solid 1px #C8D7FF;
+    outline: 1px;
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding:0 10px;
+    color: black;
+    font-size: 13px;
+    font-color: black;
+}
+#basebuttonUP{
+    background-color: #f66d5b;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding:0 10px;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
+#login_tag{
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    width: 300px;
+    height: 280px;
+    border: 2px solid #E1E1E1;
+    padding: 30px 70px 30px 70px;
+}
+
+#login_id{
+    position: relative;
+    margin-top: 10px;
+    width: 260px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#login_pw{
+    position: relative;
+    margin-top: 3px;
+    width: 260px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#login_check{
+    position: relative;
+    top: 2px;
+}
+
+#membership_button{
+    position: relative;
+    float: right;
+    margin-right: 25px;
+}
+
+#login_base{
+    position: relative;
+    margin-top: 5px;
+    width: 274px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background: #6B3F3F;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#login_naver{
+    position: relative;
+    margin-top: 5px;
+    width: 274px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background: #15F815;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+#login_kakao{
+    position: relative;
+    margin-top: 5px;
+    width: 274px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background: #F5DF37;
+    color: #6E413A;
+    font-weight: bold;
+}
