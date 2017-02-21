@@ -1,18 +1,17 @@
 /*font-face*/
+
 @font-face {
     font-family: 'Nanum Gothic';
     font-style: normal;
     font-weight: 400;
     src: url(../font/NanumGothic.eot);
-    src: url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'),
-    url(../font/NanumGothic.woff2) format('woff2'),
-    url(../font/NanumGothic.woff) format('woff'),
-    url(../font/NanumGothic.ttf) format('truetype');
+    src: url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'), url(../font/NanumGothic.woff2) format('woff2'), url(../font/NanumGothic.woff) format('woff'), url(../font/NanumGothic.ttf) format('truetype');
 }
 
 body {
     font-family: "Nanum Gothic";
 }
+
 
 /*finish*/
 
@@ -21,10 +20,7 @@ body {
     font-style: normal;
     font-weight: 700;
     src: url(../font/NanumGothicBold.eot);
-    src: url(../font/NanumGothicBold.eot?#iefix) format('embedded-opentype'),
-    url(../font/NanumGothicBold.woff2) format('woff2'),
-    url(../font/NanumGothicBold.woff) format('woff'),
-    url(../font/NanumGothicBold.ttf) format('truetype');
+    src: url(../font/NanumGothicBold.eot?#iefix) format('embedded-opentype'), url(../font/NanumGothicBold.woff2) format('woff2'), url(../font/NanumGothicBold.woff) format('woff'), url(../font/NanumGothicBold.ttf) format('truetype');
 }
 
 @keyframes slidy {
@@ -57,7 +53,7 @@ body {
     }
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
@@ -76,7 +72,7 @@ a:visited {
     color: #494c51;
 }
 
-#wraper{
+#wraper {
     min-height: 100%
 }
 
@@ -84,7 +80,6 @@ a:visited {
     position: relative;
     height: 50px;
     margin: 0 25%;
-    
 }
 
 #main_header {
@@ -194,7 +189,6 @@ a:visited {
     color: white;
     font-size: 17px;
     font-weight: bold;
-
 }
 
 #main_header #search #search_nav {
@@ -202,7 +196,10 @@ a:visited {
     margin-top: 10px;
     font-weight: bold;
 }
+
+
 /*검색버튼 옆 위아래 간격*/
+
 #main_header #search #search_nav li {
     padding-bottom: 3px;
 }
@@ -232,7 +229,7 @@ a:visited {
     font-size: 20px;
 }
 
-.content_header p{
+.content_header p {
     margin: 0;
     color: #858688;
     float: left;
@@ -315,15 +312,15 @@ a:visited {
     float: left;
 }
 
-.layout_2by3 li:nth-child(3n){
+.layout_2by3 li:nth-child(3n) {
     margin-right: 0;
 }
 
-.layout_2by3 li:nth-child(3n-2){
+.layout_2by3 li:nth-child(3n-2) {
     margin-right: 15px;
 }
 
-.layout_2by3 li:nth-child(3n-1){
+.layout_2by3 li:nth-child(3n-1) {
     margin-right: 15px;
 }
 
@@ -339,7 +336,7 @@ a:visited {
     margin-bottom: 20px;
 }
 
-.layout_2by3_child a img{
+.layout_2by3_child a img {
     width: 310px;
     height: 172px;
 }
@@ -347,20 +344,19 @@ a:visited {
 #tip {
     position: relative;
     display: block;
-
     width: 960px;
     height: 167px;
 }
 
-#tip ul li{
+#tip ul li {
     float: left;
 }
 
-#tip ul li:first-child{
+#tip ul li:first-child {
     margin-right: 18px;
 }
 
-#tip ul li a img{
+#tip ul li a img {
     width: 471px;
     height: auto;
 }
@@ -368,7 +364,6 @@ a:visited {
 #course_recommend {
     display: block;
     position: relative;
-
     width: 960px;
     height: 172px;
 }
@@ -388,7 +383,7 @@ a:visited {
     float: left;
 }
 
-.layout_1by3_child a img{
+.layout_1by3_child a img {
     width: 310px;
     height: 155px;
 }
@@ -451,7 +446,6 @@ a:visited {
     width: 200px;
     height: 50px;
     padding-right: 30%
-
 }
 
 .appstoreimg img {
@@ -471,7 +465,8 @@ a:visited {
     width: 150px;
     height: auto;
 }
-#basebutton{
+
+#basebutton {
     background-color: #FFFFFF;
     border: solid 1px #C8D7FF;
     outline: 1px;
@@ -481,12 +476,13 @@ a:visited {
     margin-bottom: 3px;
     margin-right: 10px;
     border-radius: 6px;
-    padding:0 10px;
+    padding: 0 10px;
     color: black;
     font-size: 13px;
     font-color: black;
 }
-#basebuttonUP{
+
+#basebuttonUP {
     background-color: #f66d5b;
     border: 0;
     width: 80px;
@@ -495,25 +491,25 @@ a:visited {
     margin-bottom: 3px;
     margin-right: 10px;
     border-radius: 6px;
-    padding:0 10px;
+    padding: 0 10px;
     border: none;
     color: white;
     font-size: 13px;
 }
 
-#login{
+#login {
     position: absolute;
     left: 38%;
     top: 30%;
 }
 
-#login_text{
+#login_text {
     position: relative;
     font-size: 20px;
     font-weight: bold;
 }
 
-#login_tag{
+#login_tag {
     position: relative;
     width: 300px;
     height: 280px;
@@ -521,7 +517,7 @@ a:visited {
     padding: 30px 70px 10px 70px;
 }
 
-#login_id{
+#login_id {
     position: relative;
     margin-top: 10px;
     width: 260px;
@@ -531,7 +527,7 @@ a:visited {
     border: 1px solid #E1E1E1;
 }
 
-#login_pw{
+#login_pw {
     position: relative;
     margin-top: 3px;
     width: 260px;
@@ -541,9 +537,8 @@ a:visited {
     border: 1px solid #E1E1E1;
 }
 
-#login_check{
+#login_check {
     position: relative;
-    
 }
 
 input[type=checkbox] {
@@ -574,46 +569,77 @@ input[id=sign-up_check2]:checked + label:before {
     padding-left: 3px;
 }
 
-input[type=radio] {
-    display: none;
+input[id=login_check]:checked + label:before {
+    content: '\2714';
+    padding-left: 3px;
 }
 
-input[type=radio] + label:before {
-    content: "";
+input[type="radio"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+input[type="radio"] + label {
     display: inline-block;
-    border: 1px solid #E1E1E1;
-    width: 17px;
-    height: 17px;
-    margin-bottom: 3px;
-    margin-left: 10px;
-    vertical-align: middle;
-    border-radius: 100%;
+    position: relative;
+    padding-left: 30px;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
-input[type=radio]:checked + label:before {
-    content: "";
-    background: #979797;
+input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: 1px solid #E1E1E1;
+    border-radius: 100%;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
 }
 
-/*input[type=radio]:checked + label:after {
-    content: "";
-    background: #979797;
-}*/
+input[type="radio"] + label:active:before,
+input[type="radio"]:checked + label:active:before {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
 
-#sign-up_gender{
+input[type="radio"]:checked + label:before {
+    border-color: #BABABA;
+}
+
+input[type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    background: #BABABA;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#sign-up_gender {
     position: relative;
 }
 
-
-
-#membership_button{
+#membership_button {
     position: relative;
     float: right;
     margin-right: 25px;
+    margin-top: 5px;
 }
 
-#login_base{
+#login_base {
     position: relative;
     margin-top: 20px;
     width: 274px;
@@ -625,7 +651,7 @@ input[type=radio]:checked + label:before {
     font-weight: bold;
 }
 
-#login_naver{
+#login_naver {
     position: relative;
     margin-top: 10px;
     width: 274px;
@@ -635,10 +661,9 @@ input[type=radio]:checked + label:before {
     background: #15F815;
     color: #FFFFFF;
     font-weight: bold;
-
 }
 
-#login_kakao{
+#login_kakao {
     position: relative;
     margin-top: 10px;
     width: 274px;
@@ -650,19 +675,19 @@ input[type=radio]:checked + label:before {
     font-weight: bold;
 }
 
-#sign-up{
+#sign-up {
     position: absolute;
     left: 38%;
     top: 26%;
 }
 
-#sign-up_text{
+#sign-up_text {
     position: relative;
     font-size: 20px;
     font-weight: bold;
 }
 
-#sign-up_tag{
+#sign-up_tag {
     position: relative;
     width: 400px;
     height: 380px;
@@ -670,7 +695,7 @@ input[type=radio]:checked + label:before {
     padding: 20px 30px 10px 30px;
 }
 
-#sign-up_name{
+#sign-up_name {
     position: relative;
     margin-top: 10px;
     width: 130px;
@@ -681,7 +706,7 @@ input[type=radio]:checked + label:before {
     border: 1px solid #E1E1E1;
 }
 
-#sign-up_overlap{
+#sign-up_overlap {
     position: relative;
     margin-top: 10px;
     width: 80px;
@@ -693,7 +718,7 @@ input[type=radio]:checked + label:before {
     color: white;
 }
 
-#sign-up_id{
+#sign-up_id {
     position: relative;
     margin-top: 10px;
     width: 280px;
@@ -704,7 +729,7 @@ input[type=radio]:checked + label:before {
     border: 1px solid #E1E1E1;
 }
 
-#sign-up_pw{
+#sign-up_pw {
     position: relative;
     margin-top: 10px;
     width: 175px;
@@ -715,7 +740,7 @@ input[type=radio]:checked + label:before {
     border: 1px solid #E1E1E1;
 }
 
-#sign-up_birth{
+#sign-up_birth {
     position: relative;
     margin-top: 10px;
     width: 175px;
@@ -727,7 +752,7 @@ input[type=radio]:checked + label:before {
     border: 1px solid #E1E1E1;
 }
 
-#sign-up_phone{
+#sign-up_phone {
     position: relative;
     margin-top: 10px;
     width: 370px;
@@ -738,11 +763,11 @@ input[type=radio]:checked + label:before {
     border: 1px solid #E1E1E1;
 }
 
-#sign-up_gender{
+#sign-up_gender {
     position: relative;
 }
 
-#sign-up_membership{
+#sign-up_membership {
     position: relative;
     left: 20%;
     width: 260px;
@@ -750,11 +775,11 @@ input[type=radio]:checked + label:before {
     font-size: 17px;
     color: white;
     text-align: center;
-    background-color:  #f66d5b;
+    background-color: #f66d5b;
     margin-top: 10px;
 }
 
-#sing-up_terms{
+#sing-up_terms {
     position: absolute;
     right: 0;
     bottom: 0;
